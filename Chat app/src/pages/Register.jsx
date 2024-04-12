@@ -4,7 +4,7 @@ const Register = () => {
   return (
     <div className="formcontainer">
       <div className="formbox">
-        <span className="appname">Pillu's Chat</span>
+        <span className="appname">Pillu Chat</span>
         <span className="title">Register</span>
         <form action="">
           <input type="text" placeholder="Disply name" />
