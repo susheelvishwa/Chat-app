@@ -77,9 +77,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     .container{
-        border: 1px solid black;
+        border: 1px solid white;
         border-radius: 10px;
         width: 65%;
         height: 80%;
@@ -125,6 +126,47 @@
                     cursor:  pointer;
                 }
             }
+                        .search {
+                            border-bottom: 1px solid white;
+            
+                            .searchForm {
+                                padding: 10px;
+                                input {
+                                    background-color: transparent;
+                                    color: white;
+                                    border: none;
+                                    outline: none;
+
+                                    &::placeholder{
+                                        color: lightgray;
+                                    }
+                                }
+                            }
+                        }
+            
+                        .userChat {
+                            padding: 10px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            color: white;
+                            cursor: pointer;
+
+                            &:hover{
+                                background-color:white;
+                                color: black;
+                            }
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                object-fit:cover ;
+                            }
+                            .userChatInfo{
+                                span{font-size: 18px; font-weight: 500;}
+                                p{font-size: 11px;}
+                            }
+                        }
         }
         .chat{
             flex: 2;

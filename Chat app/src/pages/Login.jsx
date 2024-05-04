@@ -5,7 +5,7 @@ const Login = () => {
         <span className="appname">Pillu's Chat</span>
         <span className="title">Login</span>
         <form action="">
-          <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email" /> 
           <input type="password" placeholder="Password" />
           <button>Sign in</button>
         </form>
