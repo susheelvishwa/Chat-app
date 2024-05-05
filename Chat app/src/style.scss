@@ -104,19 +104,16 @@
                 .logo{
                     font-weight: bold;
                 }
-
                 .user{
                     display: flex;
                     gap: 10px;
                 }
-
                 img{
                     // background-color: red;
                     height: 24px;
                     width: 24px;
                     border-radius: 50%;
                 }
-
                 button{
                     background-color:rgb(134, 134, 247);
                     color: black;
@@ -126,50 +123,115 @@
                     cursor:  pointer;
                 }
             }
-                        .search {
-                            border-bottom: 1px solid white;
-            
-                            .searchForm {
-                                padding: 10px;
-                                input {
-                                    background-color: transparent;
-                                    color: white;
-                                    border: none;
-                                    outline: none;
 
-                                    &::placeholder{
-                                        color: lightgray;
-                                    }
-                                }
-                            }
+            .search{
+                border-bottom: 1px solid white;
+                .searchForm {
+                    padding: 10px;
+                    input {
+                        background-color: transparent;
+                        color: white;
+                        border: none;
+                        outline: none;
+                        &::placeholder{
+                        color: lightgray;
                         }
+                    }
+                }
+            }
             
-                        .userChat {
-                            padding: 10px;
-                            display: flex;
-                            align-items: center;
-                            gap: 10px;
-                            color: white;
-                            cursor: pointer;
-
-                            &:hover{
-                                background-color:white;
-                                color: black;
-                            }
-                            img {
-                                width: 50px;
-                                height: 50px;
-                                border-radius: 50%;
-                                object-fit:cover ;
-                            }
-                            .userChatInfo{
-                                span{font-size: 18px; font-weight: 500;}
-                                p{font-size: 11px;}
-                            }
-                        }
+            .userChat {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    background-color:white;
+                    color: black;
+                }
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    object-fit:cover ;
+                }
+                .userChatInfo{
+                    span{font-size: 18px; font-weight: 500;}
+                    p{font-size: 11px;}
+                }
+            }
         }
+
+
         .chat{
             flex: 2;
+            // background-color: rgb(92, 79, 234);
+
+            .chatInfo{
+                height: 50px;
+                background-color:rgb(66, 4, 100);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                color: white;
+                
+                .chatIcons{
+                    display: flex;
+                    gap: 10px;
+                    img{
+                        height: 24px;
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+                }   
+            }
+
+            .messages{
+                background-color:rgb(245, 245, 220);
+                padding: 20px;
+                color: black;
+                height: calc(100% - 170px);
+            }
+            .input{
+                height: 50px;
+                background-color: white;
+                color: black;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                input{
+                    width: 100%;
+                    border:none;
+                    outline: none;
+                    color: red;
+                    font-size: 18px;
+
+                    &::placeholder{
+                        color: green
+                    }
+                }
+            }
+
+            .send{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                // border: 1px solid red;
+                padding: 5px;
+                margin: 30px;
+
+
+                img{
+                    height: 50px;
+                    cursor: pointer;
+                }
+            }
         }
     }
 }

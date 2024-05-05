@@ -68,8 +68,21 @@ const Chats = () => {
           <p>Hii jankit😂</p>
         </div>
       </div>
+
+      <div className="userChat">
+        <img
+          src="https://media.licdn.com/dms/image/D5603AQFmvPjDxdyemw/profile-displayphoto-shrink_400_400/0/1697747146209?e=1720656000&v=beta&t=bKubG5y_eD-VuAD42aj-SMSyREPypDv5PfJWN_Hl5jw"
+          alt=""
+        />
+        <div className="userChatInfo">
+          <span>Prachi</span>
+          <p>Hii Prachi😢</p>
+        </div>
+      </div>
     </div>
   );
 }
+
+
 
 export default Chats
