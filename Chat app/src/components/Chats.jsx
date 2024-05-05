@@ -1,4 +1,5 @@
 import React from 'react'
+import Vartika from "../img/Vartika.png"
 
 const Chats = () => {
   return (
@@ -15,10 +16,12 @@ const Chats = () => {
       </div>
 
       <div className="userChat">
-        <img
+        {/* <img
           src="https://media.licdn.com/dms/image/C4E03AQEeKMsYbKixtQ/profile-displayphoto-shrink_400_400/0/1639283392842?e=1718236800&v=beta&t=anmWEW-vnKqsfR5TSyL9EC8O--rY3Dv6YJWrJIB8jkM"
           alt=""
-        />
+        /> */}
+
+        <img src={Vartika} alt="" />
         <div className="userChatInfo">
           <span>Vartika</span>
           <p>Hii pillu</p>

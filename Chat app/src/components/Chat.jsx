@@ -6,11 +6,12 @@ import Messages from './Messages';
 import Input from "./Input";
 
 
+
 const Chat = () => {
   return (
     <div className="chat">
       <div className="chatInfo">
-        <span>Jankit</span>
+        <span>Shivam</span>
         <div className="chatIcons">
           <img src={Camera} alt="" />
           <img src={Add} alt="" />
