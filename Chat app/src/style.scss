@@ -290,11 +290,11 @@
                     width: 100%;
                     border:none;
                     outline: none;
-                    color: red;
+                    color:black;
                     font-size: 18px;
 
                     &::placeholder{
-                        color: green
+                        color:gray
                     }
                 }
             }
