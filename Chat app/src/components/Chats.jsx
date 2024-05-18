@@ -41,7 +41,7 @@ const Chats = () => {
 
       <div className="userChat">
         <img
-          src="https://media.licdn.com/dms/image/D5635AQHh74Z0oYkY2w/profile-framedphoto-shrink_800_800/0/1679756241890?e=1715439600&v=beta&t=OvjGq37CZ6Oj4i0pb1b7zJXJcDKGAx3aPxRkrUQS9LU"
+          src="https://avatars.githubusercontent.com/u/76205742?v=4"
           alt=""
         />
         <div className="userChatInfo">
