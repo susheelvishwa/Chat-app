@@ -11,10 +11,15 @@ Outline the development steps for creating a chat application using React, incor
 - Implement form validation to ensure data integrity.
 - Connect the form to Firebase Authentication for user registration.
 
+![Ragestar](./Chat%20app/src/img/Register.png)
+
+
 ### 2. Login Page
 - Design a login form for existing users to log in.
 - Implement authentication logic to verify user credentials.
 - Connect the login form to Firebase Authentication for user login.
+
+![Login](./Chat%20app/src/img/Login.png)
 
 ### 3. Home Page
 - Set up a home page where users are redirected after successful authentication.
@@ -34,6 +39,11 @@ Outline the development steps for creating a chat application using React, incor
 - Enhance the sidebar and chat section with additional functionality.
 - Implement features like search, notifications, file sharing, etc.
 - Ensure smooth integration between sidebar and chat components.
+
+![Full sidrbar and chat section](./Chat%20app/src/img/main.png)
+
+- Website: [Chat App](https://chat-app-five-rouge.vercel.app/)
+- Github: [Github Repo](https://chat-app-five-rouge.vercel.app/)
 
 ### 7. Responsive Design
 - Make the entire application responsive to work seamlessly across devices.
