@@ -43,7 +43,7 @@ Outline the development steps for creating a chat application using React, incor
 ![Full sidrbar and chat section](./src/img/main.png)
 
 - Website: [Chat App](https://chat-app-five-rouge.vercel.app/)
-- Github: [Github Repo](https://chat-app-five-rouge.vercel.app/)
+- Github: [Github Repo](https://github.com/susheelvishwa/Chat-app/tree/main/Chat%20app)
 
 ### 7. Responsive Design
 - Make the entire application responsive to work seamlessly across devices.
