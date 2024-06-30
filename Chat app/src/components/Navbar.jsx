@@ -1,4 +1,4 @@
-import React from "react";
+import Pillu from "../img/Pillu.png"
 
 const Navbar = () => {
   return (
@@ -6,8 +6,7 @@ const Navbar = () => {
       <span className="logo">Pillu's Chat</span>
       <div className="user">
         <img
-          src="https://media.licdn.com/dms/image/C4E03AQEeKMsYbKixtQ/profile-displayphoto-shrink_400_400/0/1639283392842?e=1718236800&v=beta&t=anmWEW-vnKqsfR5TSyL9EC8O--rY3Dv6YJWrJIB8jkM"
-          alt=""
+          src={Pillu} alt=""
         />
         <span>Pillu</span>
         <button>Logout</button>

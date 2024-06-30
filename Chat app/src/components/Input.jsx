@@ -1,8 +1,12 @@
-import React from 'react'
 import Attach from "../img/Attach.png"
 import Img from "../img/Img.png";
 
 const Input = () => {
+
+  function handleSend() {
+    console.log("hello")
+  }
+
   return (
     <div className="input">
       <input type="text" placeholder="Type something..." />
@@ -16,7 +20,7 @@ const Input = () => {
         <label htmlFor="file">
           <img src={Img} alt="" />
         </label>
-        <button>send</button>
+        <button className='sendBtn' onClick={handleSend}>send</button>
       </div>
     </div>
   );
