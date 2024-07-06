@@ -16,6 +16,13 @@
     }
 }
 
+.nav{
+    border: 1px solid black;
+}
+.nav>link{
+    color: red;
+}
+
 .formcontainer{
     background-color: rgb(98, 132, 235);
     height: 100vh;
@@ -306,6 +313,7 @@
                 cursor: pointer;
                 // border: 1px solid red;
                 padding: 5px;
+                
                 margin: 30px;
 
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import Vartika from "../img/Vartika.png"
 
 const Chats = () => {

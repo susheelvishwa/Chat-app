@@ -1,16 +1,16 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/getAuth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDonYDKVlABoGddkYAsYVnWsDg8_LgSh-4",
-  authDomain: "pillu-s-chat-aap.firebaseapp.com",
-  projectId: "pillu-s-chat-aap",
-  storageBucket: "pillu-s-chat-aap.appspot.com",
-  messagingSenderId: "415620452435",
-  appId: "1:415620452435:web:92a545370bfcea226b76a6",
-  measurementId: "G-BWM0S77D62",
+  apiKey: "AIzaSyAU9j8wPPBQlOeVfK0FSnnCSZrGZLsMbEo",
+  authDomain: "chatapp-40778.firebaseapp.com",
+  projectId: "chatapp-40778",
+  storageBucket: "chatapp-40778.appspot.com",
+  messagingSenderId: "47499275666",
+  appId: "1:47499275666:web:9eeebf1ed489eb5b60254b",
 };
 
-// Initialize Firebase
-export const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
+const app = initializeApp(firebaseConfig);
+
+export default app;
+
+

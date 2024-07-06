@@ -1,4 +1,3 @@
-import React from 'react'
 import Camera from "../img/Camera.png";
 import Add from "../img/Add.png";
 import More from "../img/More.png";
@@ -11,7 +10,7 @@ const Chat = () => {
   return (
     <div className="chat">
       <div className="chatInfo">
-        <span>Shivam</span>
+        <span>Susheel</span>
         <div className="chatIcons">
           <img src={Camera} alt="" />
           <img src={Add} alt="" />
@@ -19,7 +18,7 @@ const Chat = () => {
         </div>
       </div>
       <Messages />
-      <Input/>
+      <Input />
     </div>
   );
 }
