@@ -1,6 +1,9 @@
 import Attach from "../img/Img.png"
 
 const Register = () => {
+
+  
+
   return (
     <div className="formcontainer">
       <div className="formbox">
